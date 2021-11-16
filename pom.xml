@@ -6,7 +6,7 @@
 
   <groupId>com.fuzi1996.demo</groupId>
   <artifactId>java-maven-github-action-demo</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <name>JavaMavenGithubActionDemo</name>
 
