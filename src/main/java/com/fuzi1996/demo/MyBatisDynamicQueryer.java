@@ -16,6 +16,10 @@ public class MyBatisDynamicQueryer {
         this.sqlBuilderStatement = new SqlBuilderStatement(sqlSessionFactory.getConfiguration());
     }
 
+    public String getVersion(){
+        return "1.0.1";
+    }
+
     public <T> List<T> selectList(String sqlScript, Object parameterObject, Class<T> resultType) {
         SqlSession sqlSession = null;
         Class<?> parameterType = parameterObject != null ? parameterObject.getClass() : null;
